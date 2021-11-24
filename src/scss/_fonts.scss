@@ -1,0 +1,31 @@
+
+@font-face {
+  font-family: 'Thiqah_Regular';
+  src: url('../assets/fonts/Raleway-Regular.ttf');
+  src: url('../assets/fonts/Raleway-Regular.ttf') format('embedded-opentype'),
+      url('../assets/fonts/Raleway-Regular.ttf') format('woff'),
+      url('../assets/fonts/Raleway-Regular.ttf') format('truetype');
+  font-weight: $font-medium;
+}
+
+p,
+div,
+span,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+article,
+section,
+main,
+table,
+td,
+th,
+button,
+input,
+select {
+  font-family: $font-family;
+}
